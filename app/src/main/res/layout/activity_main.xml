@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/lblCarPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lblColor"
+                android:padding="@dimen/padding"
+                android:text="@string/CarPrice"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/txtCarPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/MarginBottom"
+                android:ems="10"
+                android:hint="@string/EnterCarPrice"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/txtSize" />
+
+            <TextView
+                android:id="@+id/lblDownPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lblColor"
+                android:padding="@dimen/padding"
+                android:text="@string/DownPayment"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/txtDownPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/MarginBottom"
+                android:ems="10"
+                android:hint="Enter Down Payment (RM)"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/txtSize" />
+
+            <TextView
+                android:id="@+id/lblLoanPeriod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lblColor"
+                android:padding="@dimen/padding"
+                android:text="@string/LoanPeriod"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/txtLoanPeriod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/MarginBottom"
+                android:ems="10"
+                android:hint="Loan Period (Years)"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/txtSize" />
+
+            <TextView
+                android:id="@+id/lblInterestRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/lblColor"
+                android:padding="@dimen/padding"
+                android:text="@string/InterestRate"
+                android:textSize="@dimen/lblSize"
+                android:textStyle="normal|bold" />
+
+            <EditText
+                android:id="@+id/txtInterestRate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/MarginBottom"
+                android:ems="10"
+                android:hint="@string/EnterInterestRateHint"
+                android:inputType="numberDecimal"
+                android:textSize="@dimen/txtSize" />
+
+            <Button
+                android:id="@+id/btnCalculate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#006999"
+                android:text="@string/Calculate"
+                android:textSize="@dimen/lblSize" />
+
+            <Button
+                android:id="@+id/btnReset"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/holo_red_dark"
+                android:text="@string/ResetButton"
+                android:textSize="@dimen/lblSize" />
+
+            <TextView
+                android:id="@+id/lblMonthlyPay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/lblSize" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

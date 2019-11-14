@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="MarginBottom">16dp</dimen>
+    <dimen name="lblSize">24sp</dimen>
+    <dimen name="txtSize">30sp</dimen>
+    <dimen name="MarginLeft">16dp</dimen>
+    <dimen name="MargiRight">16dp</dimen>
+    <dimen name="MarginTop">16dp</dimen>
+    <dimen name="padding">5dp</dimen>
+</resources>

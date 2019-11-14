@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Car Loan Calculator</string>
+    <string name="CarPrice">Car Price</string>
+    <string name="DownPayment">Down Payment</string>
+    <string name="LoanPeriod">Loan Period</string>
+    <string name="InterestRate">Interest Rate</string>
+    <string name="EnterCarPrice">Enter Car Price (RM)</string>
+    <string name="Calculate">Calculate</string>
+    <string name="EnterInterestRateHint">Enter Interest Rate (%)</string>
+    <string name="ResetButton">Reset</string>
+</resources>
